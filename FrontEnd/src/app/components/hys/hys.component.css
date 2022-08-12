@@ -1,0 +1,11 @@
+.row{
+    background-color: black;
+    padding: 20px;
+}
+
+h1{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    display: inline;
+    color: #d05292;
+    text-shadow: #555 2px 2px 4px;
+}

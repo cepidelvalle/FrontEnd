@@ -1,0 +1,52 @@
+.row {
+    padding: 10px;
+}
+
+div {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    display: inline;
+    color: #d05292;
+    text-shadow: #555 2px 2px 4px;
+
+}
+
+p {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: white;
+}
+
+
+/* foto de perfil*/
+@media (min-width: 576px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        left: 3%;
+        top: 600px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px #c5387e;
+        left: 33%;
+        top: 950px;
+    }
+}
+
+
+/*nombre*/
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+}
